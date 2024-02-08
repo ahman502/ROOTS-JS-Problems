@@ -18,9 +18,9 @@ function testString(sampleString) {
       return "Input either empty, not the right type or not a word";
     }   
   }
-else {
-  return "Input either empty, not the right type or not a word";
-}
+  else {
+    return "Input either empty, not the right type or not a word";
+  }
 }
 
 console.log(testString());
