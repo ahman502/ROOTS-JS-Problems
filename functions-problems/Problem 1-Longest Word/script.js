@@ -47,8 +47,8 @@ function testString(sampleString) {    //creating a function that takes a test s
   This statment checks if an string argument is not provided, 
   its length is equal to 0 and if it is any other datatype besides 
   the String datatype (which should be the only acceptable datatype 
-    as we are looking to find the length of the longest word in a given 
-    statement)*/
+  as we are looking to find the length of the longest word in a given 
+  statement)*/
   else {
     return "Input either empty, not the right type or not a word";
   }
