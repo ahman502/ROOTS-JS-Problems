@@ -7,11 +7,12 @@ function testString(sampleString) {    //creating a function that takes a test s
     
     for(i = 0; i < splitString.length; i++) {                     // for loop to loop through our split string's words
       trimmed = splitString[i].replace(/[^a-zA-Z]/g, "");         // the trimmed varibale holds the split argument that contains no digits or special characters
-      if(trimmed.length > longestWord.length) {                   // Check if the length of the trimmed string (just letters) is bigger than the longest word which is initially set to 0 above
-        longestWord = trimmed;                                    // if the length of the trimmed word is longer, it becomes the longest word
-      }
-      else if(trimmed.trim().length === 0) {                      // This condition is to check in case we only have spaces in our argument. 
+      
+      if(trimmed.trim().length === 0) {                           // This condition is to check in case we only have spaces in our argument. 
         return "Input either empty, not the right type or not a word";      // If after trimming the argument we only have spaces, we return this statement
+      }                            
+      else if(trimmed.length > longestWord.length) {              // Check if the length of the trimmed string (just letters) is bigger than the longest word which is initially set to 0 above
+        longestWord = trimmed;                                    // if the length of the trimmed word is longer, it becomes the longest word
       }
     }
     return 'The longest word is ' + longestWord;                  // finally we return the longest word in the argument
