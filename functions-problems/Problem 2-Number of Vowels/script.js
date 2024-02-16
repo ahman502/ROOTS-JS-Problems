@@ -14,7 +14,7 @@ function howManyVowels(sampleString) {                                       // 
         return "Input either empty or not a string";                         // if the length is 0, we return this statement
     }
   
-    if(trimmedString && trimmedString.length > 0) {                          // checking if the length of the trimmed string is greater than 0 and the string is provided
+    if(trimmedString.length > 0) {                                           // checking if the length of the trimmed string is greater than 0
       console.log('Sample string: ' + sampleString);                         // then, we print the sample string first           
   
       for(i = 0; i < trimmedString.length; i++) {                            // Next, we loop through the trimmed string and push each letter to an array
