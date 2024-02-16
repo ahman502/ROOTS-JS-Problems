@@ -23,7 +23,7 @@ function fizzBuzz() {                         // function declaration
   
 fizzBuzz();                                     // function call
 
-/* 
+/*  OUTPUT:
   
 1
 2
