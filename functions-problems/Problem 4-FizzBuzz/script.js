@@ -2,26 +2,26 @@ function fizzBuzz() {                         // function declaration
     
     for(i = 1; i <= 100; i++) {               // for loop to start from 1 and go all the way to 100 (inclusive)
         
-        if(i % 3 === 0 && i % 5 === 0) {      // if statement to check if 3 divided by the number = 0 AND 5 divided by the number = 0
-            console.log("FizzBuzz");          // if it equals 0, the number is a multiple of both 3 and 5
+        if(i % 15 === 0) {                    // the lcm of 3 & 5 is 15 so in this conditional, I look for multiples of 15
+            console.log("FizzBuzz");          // if the number is a multiple of 15, I print FizzBuzz
         }
       
-        else if(i % 3 === 0) {                  // if the number is not a multiple of both 3 & 5, we check if it's a multiple of 3    
-            console.log("Fizz");                // if it is, we print Fizz
+        else if(i % 3 === 0) {                // if the number is not a multiple of both 3 & 5, we check if it's a multiple of 3    
+            console.log("Fizz");              // if it is, we print Fizz
         } 
       
-        else if(i % 5 === 0) {                  // if the number is neither a multiple of 3 & 5, or just 3, we check if it's a multiple of 5
-            console.log("Buzz");                // if it is, we print Buzz
+        else if(i % 5 === 0) {                // if the number is neither a multiple of 3 & 5, or just 3, we check if it's a multiple of 5
+            console.log("Buzz");              // if it is, we print Buzz
         }
       
-        else {                                  // all other numbers fall under the else statement
-            console.log(i);                     // and we just print that number
+        else {                                // all other numbers fall under the else statement
+            console.log(i);                   // and we just print that number
         }
     }
-    return;                                     // finally, I add a return statement outside the for loop so the numbers are printed only once the for loop is complete
+    return;                                   // finally, I add a return statement outside the for loop so the numbers are printed only once the for loop is complete
 }
   
-fizzBuzz();                                     // function call
+fizzBuzz();                                   // function call
 
 /*  OUTPUT:
   
