@@ -1,6 +1,6 @@
 function fizzBuzz() {                         // function declaration
     
-    for(i = 1; i <= 100; i++) {               // for loop to start from 1 and go all the way to 100 (inclusive)
+    for(let i = 1; i <= 100; i++) {               // for loop to start from 1 and go all the way to 100 (inclusive)
         
         if(i % 15 === 0) {                    // the lcm of 3 & 5 is 15 so in this conditional, I look for multiples of 15
             console.log("FizzBuzz");          // if the number is a multiple of 15, I print FizzBuzz
