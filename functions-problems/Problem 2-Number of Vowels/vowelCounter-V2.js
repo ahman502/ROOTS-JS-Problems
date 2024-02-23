@@ -44,15 +44,19 @@ console.log(howManyVowels('2223Wolly sang a sOng EEUa!'));
 /*     OUTPUT
   
 "Input either empty or not a string"
+0
 
 "Input either empty or not a string"
+0
 
 "Input either empty or not a string"
+0
 
 "Sample string:      What a lovely day!"
 5
 
 "Input either empty or not a string"
+0
 
 "Sample string: 2223Wolly sang a sOng EEUa!"
 8
