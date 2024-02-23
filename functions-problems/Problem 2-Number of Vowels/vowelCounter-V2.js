@@ -3,14 +3,17 @@ function howManyVowels(sampleString) {                                    // fun
   let vowelArray = ['a', 'e', 'i', 'o', 'u'];
   
   if(!sampleString || typeof sampleString !== 'string') {                 // condition to check if an argument is not given or teh argument is not of the string datatype
-    return "Input either empty or not a string";                          // if condition is true, we give this output   
+    console.log("Input either empty or not a string");
+    return vowelCounter;                                                  // if condition is true, we give this output 
+    
   }
 
   let lowerCaseString = sampleString.toLowerCase();                       // converting sample string to lower case letters for vowel comparison
   let trimmedString = lowerCaseString.replace(/[^a-zA-Z]/g, "");          // now, I trim the argument string so it doesn't contain special characters, spaces, and digits   
   
   if(trimmedString.length === 0) {                                        // if condition to check if the length of the sample string after trimming is 0  
-      return "Input either empty or not a string";                        // if the length is 0, we return this statement   
+    console.log("Input either empty or not a string");
+    return vowelCounter;                                                  // if the length is 0, we return this statement    
   }
 
   else {                                                                  // if the length of sample string after trimming it is > 0, we run the statements below
@@ -23,10 +26,9 @@ function howManyVowels(sampleString) {                                    // fun
         vowelCounter++;
       }
     }
-    
-  return vowelCounter;                                                    // returning the number in vowelCounter variable
+
   }
-  
+  return vowelCounter;                                                    // returning the number in vowelCounter variable 
 }
 
 // function calls 
