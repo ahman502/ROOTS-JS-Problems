@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DOM-problem 3</title>
+</head>
+<body>
+  <label for="languages">Choose a programming language:</label>         <!-- Label for the drop-down menu-->
+  
+  <select name="languages" id="drop-down" onchange="outputItem()">      <!-- drop-down menu with a function that is called when a value is selected from the menu-->
+    <option value="java">Java</option>                                  <!-- 1st value in the menu -->
+    <option value="python">Python</option>                              <!-- 2nd value in the menu -->
+    <option value="swift">Swift</option>                                <!-- 3rd value in the menu -->
+  </select>
+  
+  <p id="p1"></p>                                                       <!-- p elements to write values to -->
+  <p id="p2"></p>
+  
+  <script src="script.js"></script>                                     <!-- linking the JS file in VS code -->
+</body>
+</html>
