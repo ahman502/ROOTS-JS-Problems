@@ -2,7 +2,7 @@ function printElements(arr, n) {                                                
      let finalArray = [];                                                                  // initializing a variable with empty array
      
      if(Array.isArray(arr) && typeof n === 'number' && n > 0 && n <= arr.length) {         // if statment to check if the argument array is actually an array, if n is actaully a number, n is > 0 and it is <= the length of the argumant array 
-       for(let i = 0; i < n; i++) {                                                            // if all above conditions are true, I go through the argument array starting from the 0th (1st element) to nth element (not including the nth element)
+       for(let i = 0; i < n; i++) {                                                        // if all above conditions are true, I go through the argument array starting from the 0th (1st element) to nth element (not including the nth element)
          finalArray.push(arr[i]);                                                          // I push each element in the index to the finalArray variable
        }
      }
