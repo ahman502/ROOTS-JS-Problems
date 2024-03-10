@@ -2,12 +2,11 @@ function joinItems(arr) {                                        // function dec
   let finalArray;                                                // creating a variable to save the joined array
   
   if(Array.isArray(arr)) {                                       // checking if the argument is truly an array
-    finalArray = arr.join(", ");                                 // if it is, I join the items using a commas and space separator
+    return finalArray = arr.join(", ");                          // if it is, I join the items using a commas and space separator, and return finalArray
   }
   else {                                                         // if argument is not an array, I print this statement
     return 'Input given is not an array. Try again!';
-  }
-  return finalArray;                                             // finally, I return the finalArray variable containing the joined array
+  }                                                              
 }
 
 console.log(joinItems(["Red", "Green", "White", "Black"]));      // meets array criteria
