@@ -1,5 +1,4 @@
 function joinItems(arr) {                                        // function declaration
-  
   if(Array.isArray(arr)) {                                       // checking if the argument is truly an array
     return arr.join(", ");                                       // if it is, I join the items using a commas and space separator, and return the array
   }
