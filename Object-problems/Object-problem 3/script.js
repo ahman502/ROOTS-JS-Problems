@@ -9,7 +9,7 @@ function getLength(obj) {                      // function that accepts object a
   if(typeof obj !== 'object') {                // checking if the arguments type is an object
     return "Please use object input";          // if type is not an object, I print this
   }
-  else {                                       // if type if object, I get the keys of the object as an array and return the length of that array
+  else {                                       // if type is object, I get the keys of the object as an array and return the length of that array
     return Object.keys(obj).length;
   }
 }
