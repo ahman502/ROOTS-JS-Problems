@@ -1,7 +1,7 @@
 function checkDupes(array) {
   let result = array.filter((val, index, array) => {
     return array.indexOf(val) === index;
-  })
+  });
   
   return result;
 }
