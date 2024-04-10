@@ -1,4 +1,4 @@
-const sampleObject =                           // creating sample object with only 3 keys
+const sample_object =                           // creating sample object with only 3 keys
   {
     item1: "Milk",
     item2: "Sugar",
@@ -14,7 +14,7 @@ function getLength(obj) {                      // function that accepts object a
   }
 }
 
-console.log(getLength(sampleObject));          // function call with object as argument
+console.log(getLength(sample_object));          // function call with object as argument
 console.log(getLength(27));                    // function call with number as argument
 
 
