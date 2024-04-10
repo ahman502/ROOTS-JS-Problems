@@ -1,4 +1,4 @@
-const Brooklyn99Characters = [                                                                     // creating an array of objects
+const brooklyn_99_characters = [                                                                     // creating an array of objects
   {
     firstName: "Amy",
     lastName: "Santiago",
@@ -22,7 +22,7 @@ function getNames(sampleArray) {                                                
   }
 }
 
-getNames(Brooklyn99Characters);                                                                    // calling the function with sample array
+getNames(brooklyn_99_characters);                                                                    // calling the function with sample array
 
 
 /*       OUTPUT
