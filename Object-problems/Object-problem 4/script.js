@@ -8,12 +8,8 @@ const person = {                                          // create person objec
 }
  
 function checkKey(obj, key) {                             // function that takes object and key as argument
-  if(obj.hasOwnProperty(key)) {                           // if the key exists in an object, return true
+                                                          // if the key exists in an object, return true
     return obj.hasOwnProperty(key);
-  }
-  else {
-    return false;                                         // else return false
-  }
 }
 
 console.log(checkKey(person, 'hat'));                    // false
